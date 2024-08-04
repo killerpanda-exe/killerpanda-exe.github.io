@@ -1,0 +1,266 @@
+a{
+    text-decoration: none;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+/*start of nav-bar*/
+a.navbar-links {
+ text-decoration: none;
+ color: black;  
+ font-size: 20px; 
+ 
+}
+
+#navbar-div {
+    display: none;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+#my-picture{
+    width: 200px;
+}
+/*end of nav bar*/
+/*start of intro box*/
+#backdrop {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    column-gap: 25px;
+    padding: 3% 8%;
+    margin-top: 4%;
+    text-align: left;
+}
+@media screen and (min-width: 500px){
+    #backdrop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        column-gap: 25px;
+        padding: 3% 8%;
+        margin-top: 4%;       
+    }
+    #backdrop>p{
+        font-size: large;
+    }
+    #backdrop-left-column{
+    flex-basis: 50%;
+    color: #21243D;
+    margin-top: 50px;
+}
+#backdrop-left-column>h1{
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom:5px;
+}
+#my-picture{
+    width: 300px;
+}
+#backdrop-right-column{
+    flex-basis: 40%;
+    padding: 35px 10px;
+}
+#navbar-div {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+#backdrop-left-column>h1{
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom:5px;
+}
+#cards-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+}
+
+}
+
+#backdrop-left-column{
+    flex-basis: 100%;
+    color: #21243D;
+}
+#backdrop-left-column>h1{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom:5px;
+}
+
+#backdrop-left-column >p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#download-resume{
+    background-color: #50ca6fe8;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    stroke: none;
+    
+}
+
+#backdrop-right-column{
+    flex-basis: 100%;
+    text-align: center;
+}
+/*end of intro box*/
+
+/*start of recent blogs*/
+#recent-blogs{
+    background-color: #edf7fa;
+    padding: 5% 2%;
+    border-radius: 15px;
+}
+@media screen and(min-width: 500px) {
+    #recent-blogs{
+        background-color: #edf7fa;
+        padding: 1.5% 8%;
+        border-radius: 15px;
+    }
+    
+}
+#section-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h4.my_h4 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+}
+
+#cards-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#card{
+    color: #21243D;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+#card>h2 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#card>span {
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#card>p {
+    font-size: 16px;
+}
+/*End of Recent Blogs*/
+
+/*Start of Projects*/
+#projects{
+    background-color: #ffffff;
+    padding: 1.5% 8%; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px ;
+}
+
+div.horizontal-cards{
+    display:flex;
+    flex-direction: column;
+    row-gap: 3%;
+}
+@media screen and (min-width: 500px;) {
+    div.horizontal-cards{
+        display:flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #horizontal-cards>img{
+        width: 250px;
+        height: 190px;
+    }
+    
+}
+#heading-for-horizontal-card{
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#horizontal-cards>img{
+    width: auto;
+    height: 190px;
+}
+
+span.colored-year-box{
+    background-color: #0ba0a0e8;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 1.5px 15px;
+    border-radius: 15px;
+    stroke: antiquewhite;
+}
+
+span.secondary-text{
+    color: #8695a4;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+div.horizontal-cards>div>p{
+    font-size: 18px;
+    color: #21243D;
+}
+
+hr{
+    color: black
+}
+
+
+#projects>div>img{
+    border-radius: 6px;
+}
+
+/*End of Project*/
+
+/*Start of Social Media Icons*/
+#social-media-links{
+    text-align: center;
+    display: flex;
+    column-gap: 15px ;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#social-media-links>a{
+    color: #21243D;
+}
+/*End of Social Media Icons*/
+#the-end{
+    color: #21243D;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+
